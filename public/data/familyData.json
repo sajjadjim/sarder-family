@@ -508,9 +508,8 @@
     { "id": "rel-040", "parentId": "person-023", "childId": "person-032", "type": "biological", "birthOrder": 2 },
 
     { "id": "rel-041", "parentId": "person-024", "childId": "person-030", "type": "biological", "birthOrder": 1 },
-    { "id": "rel-042", "parentId": "person-020", "childId": "person-020", "type": "biological", "birthOrder": 1 },
-    { "id": "rel-043", "parentId": "person-014", "childId": "person-020", "type": "biological", "birthOrder": 1 },
-    { "id": "rel-044", "parentId": "person-021", "childId": "person-020", "type": "biological", "birthOrder": 1 }
+    { "id": "rel-043", "parentId": "person-012", "childId": "person-020", "type": "biological", "birthOrder": 3 },
+    { "id": "rel-044", "parentId": "person-014", "childId": "person-020", "type": "biological", "birthOrder": 3 }
   ],
   "partnerships": [
     { "id": "partnership-001", "partnerIds": ["person-001", "person-002"] },
