@@ -1,0 +1,527 @@
+{
+  "_comment": "FICTIONAL SAMPLE DATA — All names, dates and details are invented for demonstration purposes only. Replace this file with real family information when ready.",
+  "family": {
+    "id": "sardar-family",
+    "name": {
+      "bn": "সরদার গোষ্ঠী",
+      "en": "Sardar Family"
+    },
+    "rootPersonIds": ["person-001", "person-002"]
+  },
+  "people": [
+    {
+      "id": "person-001",
+      "name": { "bn": "আব্দুল করিম সরদার", "en": "Abdul Karim Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1895 },
+      "death": { "date": null, "year": 1972 },
+      "isDeceased": true,
+      "bio": {
+        "bn": "আব্দুল করিম সরদার এই পরিবারের প্রতিষ্ঠাতা পুরুষ। তিনি তাঁর সময়ের একজন সম্মানিত কৃষক ও গ্রামের নেতা ছিলেন।",
+        "en": "Abdul Karim Sardar is the founding patriarch of this family. He was a respected farmer and village elder of his time."
+      }
+    },
+    {
+      "id": "person-002",
+      "name": { "bn": "রহিমা বেগম সরদার", "en": "Rahima Begum Sardar" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1900 },
+      "death": { "date": null, "year": 1980 },
+      "isDeceased": true,
+      "bio": {
+        "bn": "রহিমা বেগম সরদার পরিবারের প্রতিষ্ঠাত্রী মাতা। তিনি তাঁর পরিবারকে সকল কঠিন পরিস্থিতিতে একত্রে ধরে রেখেছেন।",
+        "en": "Rahima Begum Sardar is the founding matriarch. She held the family together through all hardships."
+      }
+    },
+
+    {
+      "id": "person-003",
+      "name": { "bn": "মোহাম্মদ আলী সরদার", "en": "Mohammad Ali Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1922 },
+      "death": { "date": null, "year": 1998 },
+      "isDeceased": true,
+      "bio": {
+        "bn": "মোহাম্মদ আলী সরদার একজন দক্ষ কারিগর ছিলেন এবং গ্রামের মসজিদ নির্মাণে বিশেষ ভূমিকা রেখেছিলেন।",
+        "en": "Mohammad Ali Sardar was a skilled craftsman who played a key role in building the village mosque."
+      }
+    },
+    {
+      "id": "person-004",
+      "name": { "bn": "ফাতেমা বেগম", "en": "Fatema Begum" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1928 },
+      "death": { "date": null, "year": 2005 },
+      "isDeceased": true,
+      "bio": {
+        "bn": "ফাতেমা বেগম একজন দয়ালু ও পরিশ্রমী মহিলা ছিলেন।",
+        "en": "Fatema Begum was a kind and hardworking woman."
+      }
+    },
+    {
+      "id": "person-005",
+      "name": { "bn": "নূর ইসলাম সরদার", "en": "Nur Islam Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1925 },
+      "death": { "date": null, "year": 1995 },
+      "isDeceased": true,
+      "bio": {
+        "bn": "নূর ইসলাম সরদার শিক্ষার প্রতি অনুরাগী ছিলেন এবং গ্রামের প্রথম প্রাথমিক বিদ্যালয় প্রতিষ্ঠায় সহায়তা করেন।",
+        "en": "Nur Islam Sardar was passionate about education and helped establish the first primary school in the village."
+      }
+    },
+    {
+      "id": "person-006",
+      "name": { "bn": "হাসিনা বেগম", "en": "Hasina Begum" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1930 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "হাসিনা বেগম এখনও সুস্থ ও সক্রিয় জীবনযাপন করছেন।",
+        "en": "Hasina Begum is still living a healthy and active life."
+      }
+    },
+    {
+      "id": "person-007",
+      "name": { "bn": "সুফিয়া খাতুন সরদার", "en": "Sufia Khatun Sardar" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1928 },
+      "death": { "date": null, "year": 2010 },
+      "isDeceased": true,
+      "bio": {
+        "bn": "সুফিয়া খাতুন সরদার ছিলেন আব্দুল করিম সরদারের কন্যা। তিনি তাঁর জীবনকালে পরিবারের অনুকরণীয় মাতা ছিলেন।",
+        "en": "Sufia Khatun Sardar was the daughter of Abdul Karim Sardar and a beloved matriarch of her own family."
+      }
+    },
+
+    {
+      "id": "person-008",
+      "name": { "bn": "কামাল সরদার", "en": "Kamal Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": "1950-06-15", "year": 1950 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "কামাল সরদার একজন প্রকৌশলী এবং ঢাকায় বসবাস করেন।",
+        "en": "Kamal Sardar is an engineer living in Dhaka."
+      }
+    },
+    {
+      "id": "person-009",
+      "name": { "bn": "নাজমা বেগম", "en": "Najma Begum" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1953 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "নাজমা বেগম একজন গৃহিণী এবং সমাজসেবী।",
+        "en": "Najma Begum is a homemaker and social worker."
+      }
+    },
+    {
+      "id": "person-010",
+      "name": { "bn": "জামাল সরদার", "en": "Jamal Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1952 },
+      "death": { "date": null, "year": 2020 },
+      "isDeceased": true,
+      "bio": {
+        "bn": "জামাল সরদার একজন ব্যবসায়ী ছিলেন যিনি পরিবারের অর্থনৈতিক উন্নয়নে গুরুত্বপূর্ণ ভূমিকা রেখেছিলেন।",
+        "en": "Jamal Sardar was a businessman who played a key role in the family's economic development."
+      }
+    },
+    {
+      "id": "person-011",
+      "name": { "bn": "আয়েশা বেগম", "en": "Ayesha Begum" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1956 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "আয়েশা বেগম চট্টগ্রামে বসবাস করেন এবং শিক্ষকতা পেশায় নিয়োজিত।",
+        "en": "Ayesha Begum lives in Chittagong and works as a teacher."
+      }
+    },
+    {
+      "id": "person-012",
+      "name": { "bn": "রফিক সরদার", "en": "Rafiq Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1948 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "রফিক সরদার কৃষিকাজে নিয়োজিত এবং পারিবারিক জমি পরিচালনা করেন।",
+        "en": "Rafiq Sardar is engaged in farming and manages the family land."
+      }
+    },
+    {
+      "id": "person-013",
+      "name": { "bn": "সালমা বেগম", "en": "Salma Begum" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1952 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "সালমা বেগম একজন নিবেদিতপ্রাণ গৃহিণী।",
+        "en": "Salma Begum is a dedicated homemaker."
+      }
+    },
+    {
+      "id": "person-014",
+      "name": { "bn": "আমিনা খাতুন", "en": "Amina Khatun" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1950 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "আমিনা খাতুন একজন অভিজ্ঞ ধাত্রী এবং গ্রামের নারীদের স্বাস্থ্যসেবায় নিবেদিত।",
+        "en": "Amina Khatun is an experienced midwife dedicated to the health of women in the village."
+      }
+    },
+
+    {
+      "id": "person-015",
+      "name": { "bn": "তানভীর সরদার", "en": "Tanvir Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": "1975-03-20", "year": 1975 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "তানভীর সরদার একজন সফটওয়্যার ইঞ্জিনিয়ার এবং ঢাকায় কর্মরত।",
+        "en": "Tanvir Sardar is a software engineer working in Dhaka."
+      }
+    },
+    {
+      "id": "person-016",
+      "name": { "bn": "মেহেরুন নেসা", "en": "Meherun Nesa" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1978 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "মেহেরুন নেসা একজন চিকিৎসক।",
+        "en": "Meherun Nesa is a physician."
+      }
+    },
+    {
+      "id": "person-017",
+      "name": { "bn": "নাফিসা সরদার", "en": "Nafisa Sardar" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1978 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "নাফিসা সরদার ঢাকা বিশ্ববিদ্যালয়ের একজন শিক্ষার্থী।",
+        "en": "Nafisa Sardar is a student at the University of Dhaka."
+      }
+    },
+    {
+      "id": "person-018",
+      "name": { "bn": "রাশেদ সরদার", "en": "Rashed Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1970 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "রাশেদ সরদার একজন স্থানীয় রাজনীতিবিদ এবং ইউনিয়ন পরিষদের সদস্য।",
+        "en": "Rashed Sardar is a local politician and union council member."
+      }
+    },
+    {
+      "id": "person-019",
+      "name": { "bn": "নাজনীন বেগম", "en": "Nazneen Begum" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1972 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "নাজনীন বেগম একজন উদ্যোক্তা।",
+        "en": "Nazneen Begum is an entrepreneur."
+      }
+    },
+    {
+      "id": "person-020",
+      "name": { "bn": "সাইদ সরদার", "en": "Syed Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1973 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "সাইদ সরদার কৃষিকাজে নিয়োজিত।",
+        "en": "Syed Sardar is engaged in farming."
+      }
+    },
+    {
+      "id": "person-021",
+      "name": { "bn": "ইসমত আরা", "en": "Ismat Ara" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1975 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "ইসমত আরা একজন নার্স।",
+        "en": "Ismat Ara is a nurse."
+      }
+    },
+    {
+      "id": "person-022",
+      "name": { "bn": "করিম সরদার", "en": "Karim Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1975 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "করিম সরদার একজন শিক্ষক। তাঁর নামটি পরিবারে পুনরাবৃত্তি হয়েছে।",
+        "en": "Karim Sardar is a teacher. His name is a repeat within the family."
+      }
+    },
+    {
+      "id": "person-023",
+      "name": { "bn": "লায়লা আক্তার", "en": "Layla Akter" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1977 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "লায়লা আক্তার একজন গৃহিণী।",
+        "en": "Layla Akter is a homemaker."
+      }
+    },
+    {
+      "id": "person-024",
+      "name": { "bn": "আরিফ সরদার", "en": "Arif Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1968 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "আরিফ সরদার সৌদি আরবে কর্মরত একজন প্রবাসী।",
+        "en": "Arif Sardar is an expatriate working in Saudi Arabia."
+      }
+    },
+    {
+      "id": "person-025",
+      "name": { "bn": "রোকেয়া বেগম", "en": "Rokeya Begum" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1971 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "রোকেয়া বেগম একজন সমাজকর্মী।",
+        "en": "Rokeya Begum is a social worker."
+      }
+    },
+
+    {
+      "id": "person-026",
+      "name": { "bn": "সাবরিনা সরদার", "en": "Sabrina Sardar" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": "2000-11-05", "year": 2000 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "সাবরিনা সরদার বিশ্ববিদ্যালয়ে কম্পিউটার বিজ্ঞান বিভাগে পড়াশোনা করছেন।",
+        "en": "Sabrina Sardar is studying Computer Science at university."
+      }
+    },
+    {
+      "id": "person-027",
+      "name": { "bn": "সামির সরদার", "en": "Samir Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": "2003-07-22", "year": 2003 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "সামির সরদার মাধ্যমিক স্কুলে পড়াশোনা করছে।",
+        "en": "Samir Sardar is studying in secondary school."
+      }
+    },
+    {
+      "id": "person-028",
+      "name": { "bn": "তাসনীম সরদার", "en": "Tasnim Sardar" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1998 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "তাসনীম সরদার একজন তরুণ শিল্পী।",
+        "en": "Tasnim Sardar is a young artist."
+      }
+    },
+    {
+      "id": "person-029",
+      "name": { "bn": "রাইয়ান সরদার", "en": "Raiyan Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1995 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "রাইয়ান সরদার একজন তরুণ উদ্যোক্তা।",
+        "en": "Raiyan Sardar is a young entrepreneur."
+      }
+    },
+    {
+      "id": "person-030",
+      "name": { "bn": "নওরীন সরদার", "en": "Nawrin Sardar" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1997 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "নওরীন সরদার একজন মেডিকেল শিক্ষার্থী।",
+        "en": "Nawrin Sardar is a medical student."
+      }
+    },
+    {
+      "id": "person-031",
+      "name": { "bn": "ইব্রাহিম সরদার", "en": "Ibrahim Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1993 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "ইব্রাহিম সরদার একটি বেসরকারি ব্যাংকে কর্মরত।",
+        "en": "Ibrahim Sardar works at a private bank."
+      }
+    },
+    {
+      "id": "person-032",
+      "name": { "bn": "সুমাইয়া বেগম", "en": "Sumaiya Begum" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1996 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "সুমাইয়া বেগম একজন গৃহিণী এবং দুই সন্তানের মা।",
+        "en": "Sumaiya Begum is a homemaker and mother of two children."
+      }
+    },
+    {
+      "id": "person-033",
+      "name": { "bn": "ফারহান সরদার", "en": "Farhan Sardar" },
+      "gender": "male",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 1990 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "ফারহান সরদার একজন সাংবাদিক।",
+        "en": "Farhan Sardar is a journalist."
+      }
+    },
+    {
+      "id": "person-034",
+      "name": { "bn": "মাহি সরদার", "en": "Mahi Sardar" },
+      "gender": "female",
+      "photoUrl": null,
+      "birth": { "date": null, "year": 2005 },
+      "death": null,
+      "isDeceased": false,
+      "bio": {
+        "bn": "মাহি সরদার স্কুলে পড়ছে।",
+        "en": "Mahi Sardar is a school student."
+      }
+    }
+  ],
+  "parentChildRelationships": [
+    { "id": "rel-001", "parentId": "person-001", "childId": "person-003", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-002", "parentId": "person-002", "childId": "person-003", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-003", "parentId": "person-001", "childId": "person-005", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-004", "parentId": "person-002", "childId": "person-005", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-005", "parentId": "person-001", "childId": "person-007", "type": "biological", "birthOrder": 3 },
+    { "id": "rel-006", "parentId": "person-002", "childId": "person-007", "type": "biological", "birthOrder": 3 },
+
+    { "id": "rel-007", "parentId": "person-003", "childId": "person-008", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-008", "parentId": "person-004", "childId": "person-008", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-009", "parentId": "person-003", "childId": "person-010", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-010", "parentId": "person-004", "childId": "person-010", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-011", "parentId": "person-003", "childId": "person-011", "type": "biological", "birthOrder": 3 },
+    { "id": "rel-012", "parentId": "person-004", "childId": "person-011", "type": "biological", "birthOrder": 3 },
+
+    { "id": "rel-013", "parentId": "person-005", "childId": "person-012", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-014", "parentId": "person-006", "childId": "person-012", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-015", "parentId": "person-005", "childId": "person-014", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-016", "parentId": "person-006", "childId": "person-014", "type": "biological", "birthOrder": 2 },
+
+    { "id": "rel-017", "parentId": "person-008", "childId": "person-015", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-018", "parentId": "person-009", "childId": "person-015", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-019", "parentId": "person-008", "childId": "person-017", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-020", "parentId": "person-009", "childId": "person-017", "type": "biological", "birthOrder": 2 },
+
+    { "id": "rel-021", "parentId": "person-010", "childId": "person-018", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-022", "parentId": "person-013", "childId": "person-018", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-023", "parentId": "person-010", "childId": "person-022", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-024", "parentId": "person-013", "childId": "person-022", "type": "biological", "birthOrder": 2 },
+
+    { "id": "rel-025", "parentId": "person-012", "childId": "person-024", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-026", "parentId": "person-012", "childId": "person-025", "type": "biological", "birthOrder": 2 },
+
+    { "id": "rel-027", "parentId": "person-015", "childId": "person-026", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-028", "parentId": "person-016", "childId": "person-026", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-029", "parentId": "person-015", "childId": "person-027", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-030", "parentId": "person-016", "childId": "person-027", "type": "biological", "birthOrder": 2 },
+
+    { "id": "rel-031", "parentId": "person-017", "childId": "person-028", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-032", "parentId": "person-017", "childId": "person-029", "type": "biological", "birthOrder": 2 },
+
+    { "id": "rel-033", "parentId": "person-018", "childId": "person-033", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-034", "parentId": "person-019", "childId": "person-033", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-035", "parentId": "person-018", "childId": "person-034", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-036", "parentId": "person-019", "childId": "person-034", "type": "biological", "birthOrder": 2 },
+
+    { "id": "rel-037", "parentId": "person-022", "childId": "person-031", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-038", "parentId": "person-023", "childId": "person-031", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-039", "parentId": "person-022", "childId": "person-032", "type": "biological", "birthOrder": 2 },
+    { "id": "rel-040", "parentId": "person-023", "childId": "person-032", "type": "biological", "birthOrder": 2 },
+
+    { "id": "rel-041", "parentId": "person-024", "childId": "person-030", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-042", "parentId": "person-020", "childId": "person-020", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-043", "parentId": "person-014", "childId": "person-020", "type": "biological", "birthOrder": 1 },
+    { "id": "rel-044", "parentId": "person-021", "childId": "person-020", "type": "biological", "birthOrder": 1 }
+  ],
+  "partnerships": [
+    { "id": "partnership-001", "partnerIds": ["person-001", "person-002"] },
+    { "id": "partnership-002", "partnerIds": ["person-003", "person-004"] },
+    { "id": "partnership-003", "partnerIds": ["person-005", "person-006"] },
+    { "id": "partnership-004", "partnerIds": ["person-008", "person-009"] },
+    { "id": "partnership-005", "partnerIds": ["person-010", "person-013"] },
+    { "id": "partnership-006", "partnerIds": ["person-012", "person-014"] },
+    { "id": "partnership-007", "partnerIds": ["person-015", "person-016"] },
+    { "id": "partnership-008", "partnerIds": ["person-018", "person-019"] },
+    { "id": "partnership-009", "partnerIds": ["person-022", "person-023"] },
+    { "id": "partnership-010", "partnerIds": ["person-024", "person-021"] }
+  ]
+}
