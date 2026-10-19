@@ -6,7 +6,7 @@ import ProfilePanel from './components/ProfilePanel';
 
 // ── Hero section shown above the tree ────────────────────────────────────────
 const Hero: React.FC = () => {
-  const { lang, t } = useLanguage();
+  const { t } = useLanguage();
   const { data } = useFamilyData();
 
   const totalMembers = data?.people.size ?? 0;

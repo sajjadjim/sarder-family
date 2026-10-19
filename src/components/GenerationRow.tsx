@@ -1,6 +1,6 @@
 import React from 'react';
 import type { ResolvedPerson } from '../types/family';
-import PersonCard, { Avatar } from './PersonCard';
+import PersonCard from './PersonCard';
 import { useLanguage, useTreeState } from '../contexts/AppContext';
 
 interface FoundingCoupleProps {
@@ -8,8 +8,8 @@ interface FoundingCoupleProps {
 }
 
 const FoundingCouple: React.FC<FoundingCoupleProps> = ({ partners }) => {
-  const { t, text } = useLanguage();
-  const { expandedIds, toggleExpanded } = useTreeState();
+  const { t } = useLanguage();
+  const { expandedIds } = useTreeState();
 
   const anyExpanded = partners.some(p => expandedIds.has(p.id));
 

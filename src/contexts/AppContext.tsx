@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect, useCallback, useMemo, type ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, useCallback, useMemo, type ReactNode } from 'react';
 import { loadFamilyData, getAncestorPath, type LoadedFamilyData } from '../services/familyDataService';
 import type { ResolvedPerson, Language, BreadcrumbItem } from '../types/family';
 

@@ -7,7 +7,7 @@ import { Avatar } from './PersonCard';
 const SearchBar: React.FC = () => {
   const { people } = useFamilyData();
   const { lang, t, text } = useLanguage();
-  const { revealPerson, openProfile } = useTreeState();
+  const { revealPerson } = useTreeState();
 
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<ResolvedPerson[]>([]);

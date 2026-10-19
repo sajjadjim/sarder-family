@@ -1,9 +1,8 @@
-import React, { useMemo } from 'react';
+import { useMemo, Fragment, type FC } from 'react';
 import { useFamilyData, useLanguage, useTreeState } from '../contexts/AppContext';
 import type { ResolvedPerson } from '../types/family';
 import FoundingCouple from './GenerationRow';
 import PersonCard from './PersonCard';
-import { GenerationRow } from './GenerationRow';
 
 /**
  * Main family tree view.
@@ -14,10 +13,9 @@ import { GenerationRow } from './GenerationRow';
  * 3. Expanded children recursively show their own couple + children.
  * 4. The tree is driven entirely by expandedIds in TreeContext.
  */
-const FamilyTree: React.FC = () => {
+const FamilyTree: FC = () => {
   const { people, data } = useFamilyData();
-  const { expandedIds, selectedId } = useTreeState();
-  const { t, text } = useLanguage();
+
 
   const rootIds = useMemo(() => data?.raw.family.rootPersonIds ?? [], [data]);
   const roots = useMemo(
@@ -44,10 +42,11 @@ interface TreeChildrenProps {
   depth: number;
 }
 
-const TreeChildren: React.FC<TreeChildrenProps> = ({ parentIds, depth }) => {
+const TreeChildren: FC<TreeChildrenProps> = ({ parentIds, depth }) => {
   const { people } = useFamilyData();
   const { expandedIds } = useTreeState();
   const { t } = useLanguage();
+  // t is used for aria-labels below
 
   // Find all children of any expanded parent in parentIds, deduplicated
   const expandedParentIds = parentIds.filter(id => expandedIds.has(id));
@@ -111,9 +110,9 @@ const TreeChildren: React.FC<TreeChildrenProps> = ({ parentIds, depth }) => {
 };
 
 /** Renders a person card next to their partner(s) */
-const ChildWithPartners: React.FC<{ person: ResolvedPerson; depth: number }> = ({ person, depth }) => {
+const ChildWithPartners: FC<{ person: ResolvedPerson; depth: number }> = ({ person, depth }) => {
   const { people } = useFamilyData();
-  const { expandedIds } = useTreeState();
+  // NOTE: _expandedIds kept for future use (e.g. visual indicator)
 
   const partners = person.partnerIds
     .map(pid => people.get(pid))
@@ -121,14 +120,14 @@ const ChildWithPartners: React.FC<{ person: ResolvedPerson; depth: number }> = (
     // Don't show partners who are already shown as siblings (they are in rootIds or child lists)
     .filter(p => !p.childIds.every(cid => person.childIds.includes(cid)));
 
-  const isExpanded = expandedIds.has(person.id);
+  // (isExpanded kept for future visual use)
 
   return (
     <div id={`person-card-${person.id}`} className="flex flex-col items-center gap-0">
       <div className="flex items-start gap-2 flex-wrap justify-center">
         <PersonCard person={person} depth={depth} />
         {partners.map(partner => (
-          <React.Fragment key={partner.id}>
+          <Fragment key={partner.id}>
             <div className="flex flex-col items-center justify-center mt-5 gap-0.5" aria-hidden="true">
               <div className="w-4 h-px bg-gold-300" />
               <span className="text-gold-400 text-xs">♥</span>
@@ -137,7 +136,7 @@ const ChildWithPartners: React.FC<{ person: ResolvedPerson; depth: number }> = (
             <div id={`person-card-${partner.id}`}>
               <PersonCard person={partner} depth={depth} />
             </div>
-          </React.Fragment>
+          </Fragment>
         ))}
       </div>
     </div>

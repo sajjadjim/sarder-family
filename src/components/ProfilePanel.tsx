@@ -26,7 +26,7 @@ function calcAge(birth: ResolvedPerson['birth'], death: ResolvedPerson['death'] 
 
 const ProfilePanel: React.FC = () => {
   const { profileId, closeProfile, openProfile, revealPerson } = useTreeState();
-  const { people, data } = useFamilyData();
+  const { people } = useFamilyData();
   const { lang, t, text } = useLanguage();
   const panelRef = useRef<HTMLDivElement>(null);
 
@@ -48,7 +48,6 @@ const ProfilePanel: React.FC = () => {
   const birthStr = formatDateFull(person.birth, lang);
   const deathStr = person.death ? formatDateFull(person.death, lang) : '';
   const age = calcAge(person.birth, person.death);
-  const rootIds = data?.raw.family.rootPersonIds ?? [];
   const ancestorPath = getAncestorPath(person.id, people);
   const parents = person.parentIds.map(pid => people.get(pid)).filter(Boolean) as ResolvedPerson[];
   const partners = person.partnerIds.map(pid => people.get(pid)).filter(Boolean) as ResolvedPerson[];
